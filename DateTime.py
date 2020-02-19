@@ -15,7 +15,7 @@ print(x.strftime('%b'))  # mes
 print("[ abreviacion del dia ]")
 print(x.strftime('%a'))
 
-print("[ ]")
+print("[ %w]")
 print(x.strftime('%W'))
 
 print("[ numero del mes ]")
