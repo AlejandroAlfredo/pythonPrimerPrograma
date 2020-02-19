@@ -1,12 +1,29 @@
 import datetime
 x = datetime.datetime.now()
-#print(x) fecha
-#print(x.year) año
-#print(x.strftime('%A')) lun,mar,mie...
-#print(x.strftime('%b'))
-#print(x.strftime('%a'))
-#print(x.strftime('%W'))
-#print(x.month) mes
-#print(x.day) dias
-x = datetime.datetime(2019,5,17)
+print("[ fecha ]")
+print(x)  # fecha
+
+print("[ years ]")
+print(x.year)  # years
+
+print("[ nombre del dia ]")
+print(x.strftime('%A'))  # lun,mar,mie...
+
+print("[ nombre del mes ]")
+print(x.strftime('%b'))  # mes
+
+print("[ abreviacion del dia ]")
+print(x.strftime('%a'))
+
+print("[ ]")
+print(x.strftime('%W'))
+
+print("[ numero del mes ]")
+print(x.month)  # mes numeros
+
+print("[ numero del dia ]")
+print(x.day)  # dias numeros
+
+print("[ Alterando la fecha ]")
+x = datetime.datetime(2019, 5, 17)
 print(x)
