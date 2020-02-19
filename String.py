@@ -21,10 +21,10 @@ print(a.upper())
 print("-- replace --")
 print(a.replace("H","L"))
 #print(a.split(" "))
-word="Hola,mundo,crud"
-myArrays = word.split(",")
+print("-- split --")
+word="Hola-mundo-crudo"
+myArrays = word.split("-")
 print(myArrays)
-print()
-#
+print("-- join --")
 a = ["hola","mundo","irreal"]
 print("-".join(a))
